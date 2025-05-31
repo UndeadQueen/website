@@ -2,7 +2,7 @@ import './style.css'
 import projects from "./projects"
 
 document.querySelector('#app').innerHTML = `
-<p class="name">Valerie Hayden</p>  
+<p class="name">Jessica Hayden</p>  
 <div>
    <div id="Projects">
    <h1 class="title">Projects</h1>
@@ -17,7 +17,7 @@ document.querySelector('#app').innerHTML = `
    <div id="about">
    </div>
    </div>
-   <footer>&#169; Valerie Hayden <span id="year"></span></footer>
+   <footer>&#169; Jessica Hayden <span id="year"></span></footer>
    </div>
 `
 document.getElementById("year").innerHTML = new Date().getFullYear()
