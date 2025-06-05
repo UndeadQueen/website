@@ -17,10 +17,8 @@ document.querySelector('#app').innerHTML = `
    <div id="about">
    </div>
    </div>
-   <footer>&#169; Jessica Hayden <span id="year"></span></footer>
    </div>
 `
-document.getElementById("year").innerHTML = new Date().getFullYear()
 projects.forEach(function(p) {
   document.getElementById("Projects").innerHTML += `<a href=${p.Link}><h2 class="projectname">${p.Name}</h2> <p class="projectdesc">${p.desc}</p> </a>`
 })
